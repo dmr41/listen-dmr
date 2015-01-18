@@ -1,0 +1,30 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>Listen_dmr</title>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  <body>
+    <header id="head-grab">
+      <h2 class="noplay-header">Select a song!</h2>
+    </header>
+    <section id="music-player">
+    </section>
+
+    <script src="bower_components/jquery/dist/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="bower_components/mustache/mustache.min.js" type="text/javascript" charset="utf-8"> </script>
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/template" id="songTemplate">
+        {{#tracks}}
+        <article id="musical{{id}}">
+          <div>
+            <h2 class="fa fa-play" id={{id}} data-songtitle= "{{title}}"></h2>
+            <h2 class= "insider"><strong>{{artist}} by {{title}}</strong></h2>
+            <audio src="tracks/{{file}}.mp3" id={{id}} preload="none"></audio>
+          </div>
+        </article>
+        {{/tracks}}
+      </script>
+  </body>
+</html>

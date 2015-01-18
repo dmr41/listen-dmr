@@ -1,0 +1,28 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  width: 66%;
+  margin: 0 auto;
+}
+
+.insider {
+  display: inline;
+}
+header {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  background: black;
+  color: white;
+}
+
+article {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+article:not(:first-child) {
+  border-top: 1px solid #EDE;
+}
