@@ -14,15 +14,15 @@
     },
     {
       "id": "3",
-      "title": "Transgender Dysphoria Blues",
-      "file": "transgender-dysphoria-blues",
-      "artist": "Against Me!"
-    },
-    {
-      "id": "4",
       "title": "Where I'm From",
       "file": "where-im-from",
       "artist": "Digable Planets"
+    },
+    {
+      "id": "4",
+      "title": "Transgender Dysphoria Blues",
+      "file": "transgender-dysphoria-blues",
+      "artist": "Against Me!"
     }
   ]
 }

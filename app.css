@@ -3,14 +3,16 @@
 }
 
 body {
-  width: 66%;
-  margin: 0 auto;
+  width: 100%;
+
 }
 
 .insider {
   display: inline;
 }
 header {
+  width: 66%;
+  margin: 0 auto;
   border: 1px solid black;
   border-radius: 5px;
   text-align: center;
@@ -19,6 +21,8 @@ header {
 }
 
 article {
+  width: 66%;
+  margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 10px;
 }

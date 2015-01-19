@@ -7,7 +7,7 @@
   </head>
   <body>
     <header id="head-grab">
-      <h2 class="noplay-header">Select a song!</h2>
+      <h2 class="noplay-header">Select a Song!</h2>
     </header>
     <section id="music-player">
     </section>
@@ -20,8 +20,8 @@
         <article id="musical{{id}}">
           <div>
             <h2 class="fa fa-play" id={{id}} data-songtitle= "{{title}}"></h2>
-            <h2 class= "insider"><strong>{{artist}} by {{title}}</strong></h2>
-            <audio src="tracks/{{file}}.mp3" id={{id}} preload="none"></audio>
+            <h2 class= "insider"><strong>{{title}} by {{artist}}</strong></h2>
+            <audio src="" id={{id}}></audio>
           </div>
         </article>
         {{/tracks}}
