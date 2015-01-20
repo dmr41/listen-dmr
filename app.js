@@ -3,6 +3,7 @@ var hmm =  $.getJSON("data.json", function(songs) {
     var songTemplate = $("#songTemplate").html();
     var html_out = Mustache.to_html(songTemplate, songs);
      $("#music-player").html(html_out);
+
      datas = function(){
         return songs;
      };
@@ -27,6 +28,6 @@ var hmm =  $.getJSON("data.json", function(songs) {
     $(this).siblings('audio').attr('src', '')
     $(this).addClass("fa-play").removeClass("fa-stop");
     $('#head-grab h2').removeClass("play-header").addClass('noplay-header');
-    $('.noplay-header').text('Select a song!');
+    $('.noplay-header').text('Select a Song!');
   });
 });
